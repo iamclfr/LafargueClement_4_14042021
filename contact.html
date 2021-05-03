@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Agence de Web Design à Lion, Solutions de Web Design sur mesure, Stratégie et conseil, Créations graphiques, Création de site web.">
+      <meta name="keywords" content="Agence, web, design, Lion, stratégie, conseil, créations, graphiques">
+      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <!-- SEO OpenGraph -->
+      <meta property="og:locale" content="fr_FR" />
+      <meta property="og:title" content="La Chouette Agence - Votre Agence Web Design à Lion" />
+      <meta property="og:description" content="Agence de Web Design à Lion, Solutions de Web Design sur mesure, Stratégie et conseil, Créations graphiques, Création de site web." />
+      <meta property="og:url" content="https://lachouetteagence.301dev.com" />
+      <meta property="og:site_name" content="La Chouette Agence" />
+      <meta property="article:publisher" content="https://www.facebook.com/301devcom" />
+      <meta property="og:image" content="https://lachouetteagence.301dev.com/img/la-chouette-agence.webp" />
+      <meta property="og:image:width" content="215" />
+      <meta property="og:image:height" content="40" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <link rel="shortcut icon" type="image/png" href="./img/favicon.ico">
+      <title>Contactez nous - La Chouette Agence</title>
+      <!-- Les Styles -->
+      <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="./css/et-line.css">
+      <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+      <!-- Les Scripts -->
+      <script src="./js/jquery-2.1.0.js"></script>
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/blocs.js"></script>
+      <script src="./js/jquery.touchSwipe.js" async="false"></script>
+   </head>
+   <body>
+      <!-- Principal conteneur -->
+      <div class="page-container">
+         <!-- bloc-0 -->
+         <div class="bloc bgc-white l-bloc " id="sticky-nav">
+            <div class="container bloc-sm">
+               <nav class="navbar row">
+                  <div class="navbar-header">
+                     <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="atlanta web design logo" height="40" /></a>
+                     <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                     <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                     </button>
+                  </div>
+                  <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+                     <ul class="site-navigation nav navbar-nav">
+                        <li>
+                           <a href="index.html" tabindex="1">Accueil</a>
+                        </li>
+                        <li>
+                           <a href="contact.html" tabindex="1">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </div>
+         <!-- bloc-0 END -->
+         <!-- bloc-6 -->
+         <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+            <div class="container bloc-lg">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h1 class="text-center hero-bloc-text tc-white">
+                        Parlons web design !
+                     </h1>
+                     <p class="text-center mg-lg tc-white tight-width-whitespace">
+                        Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+                        Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- bloc-6 END -->
+         <div id="popupForm">
+            Formualaire envoyé. Merci
+         </div>
+         <!-- bloc-7 -->
+         <div class="bloc bgc-white l-bloc" id="bloc-7">
+            <div class="container bloc-lg">
+               <div class="row">
+                  <div class="col-sm-6">
+					<h3>Formulaire de contact</h3>
+                     <form id="form_1" success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble que notre serveur de messagerie ne répond pas, Désolé pour le désagrément!">
+                        <div class="form-group">
+                           <label for="name">
+                           Nom Prénom
+                           </label>
+                           <input id="name" class="form-control" placeholder="John Doe" required />
+                        </div>
+                        <div class="form-group">
+                           <label for="email">
+                           Adresse email
+                           </label>
+                           <input id="email" class="form-control" type="email" placeholder="johndoe@email.com" required />
+                        </div>
+                        <div class="form-group">
+                           <label for="howweknow">
+                           Comment nous avez-vous connu ?
+                           </label>
+                           <input class="form-control" type="text" required id="howweknow" />
+                        </div>
+                        <div class="form-group">
+                           <label for="message">
+                           Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+                           </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                        </div>
+                        <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+                        Envoyer
+                        </button>
+                     </form>
+                  </div>
+                  <div class="col-sm-6 container_contact-info">
+                  <h3>Informations de contact</h3>
+                        <a href="mailto:contact@lachouetteagence.com" class="contact-info">contact@lachouetteagence.com</a>
+                  <a href="#maps" class="contact-info">2 place Sathonay 69001 Lyon</a>
+                  <p class="contact-info">Ouvert de 9h à 18h, du lundi au vendredi</p>
+                  <div class="google-maps">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.083137365219!2d4.827978615965735!3d45.76952407910564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1619775199512!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- bloc-7 END -->
+         <!-- ScrollToTop Button -->
+         <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+         <!-- ScrollToTop Button END-->
+         <!-- Footer - bloc-8 -->
+         <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+            <div class="container bloc-sm">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <p class="text-center white">
+                        La chouette agence - Agence web basée à Lyon.<br>
+                     </p>
+                     <div class="row row-no-gutters social social-icon-footer">
+                        <div class="col-sm-3">
+                           <div class="text-center">
+                              <a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+                           </div>
+                        </div>
+                        <div class="col-sm-3">
+                           <div class="text-center">
+                              <a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+                           </div>
+                        </div>
+                        <div class="col-sm-3">
+                           <div class="text-center">
+                              <a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+                           </div>
+                        </div>
+                        <div class="col-sm-3">
+                           <div class="text-center">
+                              <a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <ul class="footer-links">
+                              <li>Partenaires</li>
+                              <li><a href="#voiture.com">voiture.com</a></li>
+                              <li><a href="#pizza.com">pizza.com</a></li>
+                              <li><a href="#matoiture.com">matoiture.com</a></li>
+                              <li><a href="#immobilierseo.com">immobilierseo.com</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Footer - bloc-8 END -->
+      </div>
+      <!-- Principal conteneur END -->
+   </body>
+</html>
